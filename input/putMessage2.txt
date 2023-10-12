@@ -1,0 +1,8 @@
+//sample command for starting AggregationServer
+make runAggregationServer ARGS1="8888"
+
+//sample command for starting ContentServer
+make runContentServer ARGS1="http://localhost:8888" ARGS2="IDS60901.txt"
+
+//sample command for starting GETClient
+make runGETClient ARGS1="http://localhost:8888" ARGS2="IDS60901"
